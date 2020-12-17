@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.MainActivity">
+
+    <Button
+        android:id="@+id/mainThreadButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/main_thread"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/backgroundThreadButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/background_thread"
+        app:layout_constraintTop_toBottomOf="@id/mainThreadButton" />
+
+    <Button
+        android:id="@+id/coroutinesButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/coroutines"
+        app:layout_constraintTop_toBottomOf="@id/backgroundThreadButton" />
+
+    <Button
+        android:id="@+id/callbacksButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/callbacks_example"
+        app:layout_constraintTop_toBottomOf="@id/coroutinesButton" />
+
+    <Button
+        android:id="@+id/asyncButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/async"
+        app:layout_constraintTop_toBottomOf="@id/callbacksButton" />
+
+    <Button
+        android:id="@+id/cancelCoroutineButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cancelling_of_coroutines"
+        app:layout_constraintTop_toBottomOf="@id/asyncButton" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

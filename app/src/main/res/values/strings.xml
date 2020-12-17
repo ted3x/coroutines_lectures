@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Coroutines Lecture</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="main_thread">Main Thread</string>
+    <string name="background_thread">Background Thread</string>
+    <string name="coroutines">Coroutines</string>
+    <string name="callbacks_example">Callbacks example</string>
+    <string name="start">Start</string>
+    <string name="async">Async</string>
+    <string name="cancelling_of_coroutines">Cancelling of coroutines</string>
+</resources>
